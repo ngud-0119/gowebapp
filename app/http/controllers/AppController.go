@@ -2,12 +2,13 @@ package controllers
 
 import (
 	"fmt"
-	"go_framework/app/models"
-	"go_framework/database"
 	"io"
 	"log"
 	"net/http"
 	"os"
+
+	"main.go/app/models"
+	"main.go/database"
 
 	"github.com/labstack/echo"
 )

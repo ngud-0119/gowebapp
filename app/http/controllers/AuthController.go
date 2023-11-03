@@ -1,9 +1,11 @@
 package controllers
 
 import (
-	"go_framework/app/models"
-	"go_framework/database"
 	"net/http"
+
+	"main.go/database"
+
+	"main.go/app/models"
 
 	"github.com/labstack/echo"
 	"golang.org/x/crypto/bcrypt"

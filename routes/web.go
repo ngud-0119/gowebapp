@@ -1,9 +1,10 @@
 package routes
 
 import (
-	"go_framework/app/http/controllers"
+	// "go_framework/app/http/controllers"
 
 	"github.com/labstack/echo"
+	"main.go/app/http/controllers"
 )
 
 func Index() *echo.Echo {

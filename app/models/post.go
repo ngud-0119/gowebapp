@@ -3,7 +3,8 @@ package models
 import (
 	"database/sql"
 	"fmt"
-	"go_framework/app/models/entities"
+
+	"main.go/app/models/entities"
 )
 
 type PostModel struct {

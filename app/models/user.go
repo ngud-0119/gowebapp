@@ -2,7 +2,8 @@ package models
 
 import (
 	"database/sql"
-	"go_framework/app/models/entities"
+
+	"main.go/app/models/entities"
 )
 
 type UserModel struct {

@@ -1,8 +1,9 @@
 package main
 
 import (
-	"go_framework/routes"
 	"log"
+
+	"main.go/routes"
 
 	"github.com/joho/godotenv"
 	_ "github.com/joho/godotenv/autoload"

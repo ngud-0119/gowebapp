@@ -2,8 +2,9 @@ package controllers
 
 import (
 	"encoding/gob"
-	"go_framework/app/models/entities"
 	"os"
+
+	"main.go/app/models/entities"
 
 	"github.com/gorilla/sessions"
 	"github.com/labstack/echo"
